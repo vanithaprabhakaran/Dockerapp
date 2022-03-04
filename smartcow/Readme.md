@@ -3,14 +3,15 @@
 Python-React Apps.
 
 1. created docker container for backend, nginx proxy server and Front end React app.
---->/smartcow/api
+/smartcow/api
 
-Backend service is running on port 50000 :
+Backend service is running on port 50000
 
 Docker build -t pythonapp .
 docker run -p 5000:5000 -d pythonapp
----->/smartcow/sys-stats
-Front end React app is running on 3000 :
+
+/smartcow/sys-stats
+Front end React app is running on 3000
 
 Docker build -t pythonapp .
 docker run -p 3000:3000 -d nodeapp
